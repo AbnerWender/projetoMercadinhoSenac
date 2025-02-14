@@ -33,4 +33,6 @@ fetch(`https://fakestoreapi.com/users/${userId}`)
     .then(res=>res.json())
     .then(json=>console.log(json))
         alert("Dados alterados com sucesso!");
+        
+    console.log(json)
 }) 
